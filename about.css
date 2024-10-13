@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap");
+/* Base */
+:root {
+  --clr-primary: #1f1d1d;
+  --clr-secondary: #121212;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  overflow-x: hidden;
+}
+
+.section {
+  width: 100%;
+  padding: 130px 0;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  padding: 0 30px;
+}
+
+/* About */
+#about .text {
+  flex: 1;
+  padding-right: 20px;
+}
+
+#about .visual {
+  flex: 2;
+}
+
+.about-video {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  filter: grayscale(50%);
+}
+
+.smaller-title {
+  font-size: 48px;
+}
+
+.smaller-subtitle {
+  font-size: 24px;
+}
+
+.smaller-paragraph {
+  font-size: 16px;
+}
+
+#about .secondary {
+  font-size: 48px;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+#about .primary {
+  font-size: 28px;
+  font-weight: 500;
+  color: white;
+  margin-bottom: 15px;
+}
+
+#about .tertiary {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+#about .btn {
+  margin-top: 20px;
+  padding: 12px 20px;
+  background-color: var(--clr-primary);
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 18px;
+}

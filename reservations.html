@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reservations - Bab Al-Hara: Taste of Syria</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="reservations.css">
+    <style>
+      /* Global box-sizing for consistent element sizing */
+      * {
+        box-sizing: border-box;
+      }
+
+      /* Navbar */
+      nav {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: 1000; /* Make sure the navbar stays on top */
+      }
+
+      nav ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px; /* Adjust based on the height of your navbar */
+      }
+
+      /* Centering the reservation form */
+      .reservation-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh; /* Full height to center vertically */
+        padding-top: 120px; /* Add padding to account for the fixed navbar */
+        padding-left: 20px;
+        padding-right: 20px; /* Add some padding for small screens */
+      }
+
+      .reservation-form {
+        max-width: 600px;
+        width: 100%;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      .reservation-form input,
+      .reservation-form button {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        font-size: 16px;
+      }
+
+      .reservation-form h2 {
+        text-align: center;
+      }
+
+      .btn {
+        background-color: #d2a679;
+        color: white;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+
+      .btn:hover {
+        background-color: #b8860b;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Menu -->
+    <div class="menu">
+      <nav>
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn">
+          <ion-icon name="grid-outline"></ion-icon>
+        </label>
+        <label class="logo">
+          <a href="index.html" style="text-decoration: none; color: white;">
+            <img src="bab-al-hara-modified-removebg-preview.png" alt="Bab Al-Hara Logo" style="height: 100px; vertical-align: middle;" />
+            Bab Al-Hara
+          </a>
+        </label>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="reservations.html" class="active">Reservations</a></li>
+        </ul>
+      </nav>
+    </div>
+    <!-- End Menu -->
+
+    <!-- Reservations Section -->
+    <div class="reservation-container">
+      <form action="#" class="reservation-form">
+        <h2 class="secondary">Make a Reservation</h2>
+        <p>
+          Reserve a table at Bab Al-Hara: Taste of Syria, where we bring the flavors and ambiance of Syria straight to your table. Whether it's an intimate dinner or a gathering with friends, we're excited to welcome you.
+        </p>
+
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+
+        <div class="form-group">
+          <label for="date">Date:</label>
+          <input type="date" id="date" name="date" required />
+        </div>
+
+        <div class="form-group">
+          <label for="time">Time:</label>
+          <input type="time" id="time" name="time" required />
+        </div>
+
+        <div class="form-group">
+          <label for="guests">Number of Guests:</label>
+          <input type="number" id="guests" name="guests" min="1" max="20" required />
+        </div>
+
+        <button type="submit" class="btn">Reserve Now</button>
+      </form>
+    </div>
+    <!-- End Reservations Section -->
+  </body>
+</html>

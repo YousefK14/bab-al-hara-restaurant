@@ -1,0 +1,28 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+  }
+  
+  .grid-align-end {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: end;
+  }
+  
+  .justify-start {
+    justify-self: start;
+  }
+  
+  .justify-end {
+    justify-self: end;
+  }
+  
+  .green {
+    color: #1b2f1e;
+  }
+  
+  .red {
+    color: #8f1010;
+  }

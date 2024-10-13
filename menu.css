@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap");
+/* Base */
+:root {
+  --clr-primary: #1f1d1d;
+  --clr-secondary: #121212;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  overflow-x: hidden;
+}
+
+/* Menu section */
+.category {
+  list-style: none;
+  text-align: center;
+  margin: 20px 0 40px 0;
+}
+
+.category li {
+  display: inline-block;
+  margin: 0 15px;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.category li.active {
+  color: white;
+}
+
+.restaurant-menu {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+}
+
+.menu-item {
+  width: 90%;
+  margin: 0 auto;
+  padding: 8px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.menu-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.order {
+  justify-content: space-between;
+}
+
+/* Menu item images - make them black and white */
+.restaurant-menu .menu-item img {
+  width: 100%;
+  filter: grayscale(50%);
+  transition: filter 0.3s ease-in-out;
+}
+
+/* On hover, revert to color with a smooth effect */
+.restaurant-menu .menu-item img:hover {
+  filter: grayscale(0%);
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 300;
+  margin: 8px 0;
+}
+
+.location {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.btn-menu {
+  padding: 6px 10px;
+  font-size: 16px;
+  background: var(--clr-primary);
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.btn-menu:hover {
+  background: #e64a19;
+}
