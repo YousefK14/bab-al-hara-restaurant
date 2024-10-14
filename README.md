@@ -1,5 +1,3 @@
-# Bab Al-Hara: Taste of Syria
-
 ![Bab Al-Hara Restaurant](https://i.imgur.com/5J5mg61.png)
 
 ## Overview
