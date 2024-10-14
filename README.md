@@ -1,6 +1,4 @@
-![Bab Al-Hara Restaurant](https://i.imgur.com/5J5mg61.png)
-
-## Overview
+# Overview
 Bab Al-Hara** is a website designed to showcase a traditional Syrian restaurant, emphasizing the rich flavors and cultural history of Syria through an interactive and immersive web experience. 
 
 ## Table of Contents
@@ -11,6 +9,8 @@ Bab Al-Hara** is a website designed to showcase a traditional Syrian restaurant,
 - [Responsive Design](#responsive-design)
 - [Future Enhancements](#future-enhancements)
 - [License](#license)
+
+![Bab Al-Hara Restaurant](https://i.imgur.com/5J5mg61.png)
 
 ## Introduction
 Bab Al-Hara translates to "The Gate of the Neighborhood" in Arabic, symbolizing a welcoming and community-centered restaurant that celebrates authentic Syrian cuisine and culture.
