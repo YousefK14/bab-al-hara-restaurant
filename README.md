@@ -1,5 +1,5 @@
 # Overview
-Bab Al-Hara** is a website designed to showcase a traditional Syrian restaurant, emphasizing the rich flavors and cultural history of Syria through an interactive and immersive web experience. 
+Bab Al-Hara is a website designed to showcase a traditional Syrian restaurant, emphasizing the rich flavors and cultural history of Syria through an interactive and immersive web experience. 
 
 ## Table of Contents
 - [Introduction](#introduction)
